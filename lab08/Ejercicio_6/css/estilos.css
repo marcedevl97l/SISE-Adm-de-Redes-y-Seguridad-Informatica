@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: orange;
+}
+
+#contenedor {
+  width: 95%;
+  margin: 30px auto;
+}
+
+header {
+  background-color: beige;
+  padding: 20px;
+  text-align: center;
+  color: chocolate;
+}
+
+header h1 {
+  padding: 20px;
+  text-align: center;
+  color: chocolate;
+}
+
+header img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+nav {
+  background-color: yellow;
+}
+
+nav a {
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: red;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  width: 25%;
+  padding: 20px;
+  background-color: antiquewhite;
+}
+
+aside h3 {
+  padding: 20px 0;
+  margin: 0;
+  color: firebrick;
+}
+
+aside a {
+  padding: 5px 0;
+  display: block;
+  color: firebrick;
+}
+
+aside img {
+  width: 70%;
+  margin: 20px auto;
+  display: block;
+}
+.subtitlesAside {
+    color: black;
+}
+section {
+  width: 50%;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+section figure {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid blue;
+}
+
+section figure img {
+  width: 80%;
+  margin: 10px auto;
+  display: block;
+}
+
+section figure figcaption {
+  margin: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: green;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 10px;
+  color: white;
+}
